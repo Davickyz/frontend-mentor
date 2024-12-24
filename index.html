@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor| FAQ accordion</title>
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- background img -->
+  <div id="background-img"></div>
+  
+  <!-- Card Component -->
+  <section>
+    <h1>
+      <img src="images/icon-star.svg" alt="">
+      <p>FAQs</p>
+    </h1>
+    <div class="faq">
+      <div>
+        <h4> What is Frontend Mentor, and how will it help me? </h4>
+        <button onclick="displayParagraph1()"
+          class="js-button-1"></button>
+      </div>
+      <p class="js-paragraph-1"></p>
+    </div>
+    <div class="faq">
+      <div>
+        <h4>Is Frontend Mentor free?</h4>
+        <button onclick="displayParagraph2()"
+          class="js-button-2"></button>
+      </div>
+      <p class="js-paragraph-2"></p>
+    </div>
+    <div class="faq">
+      <div>
+        <h4> Can I use Frontend Mentor projects in my portfolio? </h4>
+        <button onclick="displayParagraph3()"
+          class="js-button-3"></button>
+      </div>
+      <p class="js-paragraph-3"></p>
+    </div>
+    <div class="faq">
+      <div>
+        <h4> How can I get help if I'm stuck on a challenge? </h4>
+        <button onclick="displayParagraph4()"
+          class="js-button-4"></button>
+      </div>
+      <p class="js-paragraph-4"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
